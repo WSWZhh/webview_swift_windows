@@ -1,0 +1,13 @@
+.build*/
+.swiftpm/
+module-cache/
+.vscode/
+.vs/
+out/
+*.obj
+*.exe
+*.lib
+*.pdb
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo

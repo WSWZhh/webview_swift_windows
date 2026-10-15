@@ -1,0 +1,19 @@
+# Retired C ABI project (remove locally with clean.ps1).
+/MyCLI/
+
+# Generated builds, compiler caches and local editor state.
+.build*/
+.swiftpm/
+module-cache/
+.vscode/
+.vs/
+out/
+*.obj
+*.exe
+*.lib
+*.pdb
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+Thumbs.db
+.DS_Store

@@ -1,0 +1,5 @@
+module WebViewBridge {
+  requires cplusplus
+  header "WebViewBridge.hpp"
+  export *
+}
