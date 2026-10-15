@@ -1,5 +1,7 @@
 # SwiftWebView
 
+[中文](README.md) | [English](README.en.md)
+
 Windows x64 的 Swift WebView 库，使用 Swift/C++ 互操作和 C++ RAII 管理窗口。
 应用只需 Swift 接口，无需编写 C 包装、手动管理指针或配置本机绝对路径。
 

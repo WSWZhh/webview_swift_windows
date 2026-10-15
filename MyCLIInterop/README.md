@@ -1,5 +1,7 @@
 # SwiftWebView
 
+[中文](README.md) | [English](README.en.md)
+
 Windows x64 的 Swift WebView 库。底层通过 Swift/C++ interoperability 调用
 `webview::webview`，C++ RAII 对象负责资源释放。应用代码只使用 Swift 接口。
 
