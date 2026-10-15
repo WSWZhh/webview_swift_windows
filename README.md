@@ -73,18 +73,3 @@ SDK 二进制要求相同 Swift 工具链；更换工具链后从源码重建。
 `Package.swift` 也提供库产品，但当前 Windows SwiftPM 流程尚未验证，优先使用上述脚本。
 接口、SDK 分发与 SwiftPM 接入详见 [库文档](MyCLIInterop/README.md)。
 
-## 清理与版本控制
-
-旧 C 包装 `MyCLI/` 已退出维护与版本控制范围。现有工作目录可以运行：
-
-```powershell
-.\clean.ps1 -WhatIf  # 预览
-.\clean.ps1          # 删除旧 MyCLI、.build* 产物和项目的本地 VS Code 设置
-```
-
-清理不删除 Swift/C++ 源码、示例、测试或 Vendor。`.gitignore` 排除旧项目、构建产物、
-模块缓存和编辑器设置，新克隆不需要已有编译结果。若这些文件曾被 Git 跟踪，
-需先从索引移除；`.gitignore` 不会取消已跟踪的文件。
-
-第三方许可见 `MyCLIInterop/Vendor/webview/LICENSE` 及
-`MyCLIInterop/Vendor/webview2/LICENSE.txt`、`NOTICE.txt`。
